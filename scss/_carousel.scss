@@ -1,0 +1,23 @@
+@import "./color";
+
+.c-item {
+    height: 400px;
+
+}
+
+.c-image{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
+
+.c-button{
+    color: $primary;
+}
+
+@media (max-width: 767.98px) { 
+    .c-item {
+        height: 300px;
+    }
+
+}
