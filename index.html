@@ -15,9 +15,7 @@
 <body>
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <div class="container">
-          <a href="index.html" class="navbar-brand mb-0 h1 col-6"
-            >Best Website Choice</a
-          >
+          <a href="index.html" class="navbar-brand h1 col-6">Best Website Choice</a>
           <button 
           type="button" 
           data-bs-toggle="collapse" 
@@ -27,24 +25,44 @@
           aria-controls="false" 
           aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
-          
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navoptions">
-            <ul class="navbar-nav d-flex ">
+            <ul class="navbar-nav d-flex">
                 <li class="nav-item active">
                     <a href="index.html" class="nav-link active">Home</a>
                 </li>
                 <li class="nav-item active">
-                    <a href="" class="nav-link">Categories</a>
+                    <a href="#" class="nav-link dropdown-toggle" id="categories-link">Categories</a>
                 </li>
                 <li class="nav-item active">
-                    <a href="" class="nav-link">About us</a>
+                    <a href="#" class="nav-link">About us</a>
                 </li>
             </ul>
-            </div>
           </div>
         </div>
-      </nav>
+    </nav>
+
+
+        <!--Dropdown menu-->
+        <section class="categories-section pb-3">
+            <div class="container categories-container pb-3">
+              <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 pt-3">
+                <div class="col">
+                  <a href="#" class="category-link">Finance</a>
+                </div>
+                <div class="col">
+                  <a href="#" class="category-link">Shopping</a>
+                </div>
+                <div class="col">
+                  <a href="#" class="category-link">Electronics</a>
+                </div>
+                <div class="col">
+                  <a href="#" class="category-link">Casino</a>
+                </div>
+              </div>
+            </div>
+          </section>
+          
 
 
       <!--Carousel-->
@@ -66,12 +84,30 @@
                 </div>
                 <div class="carousel-item c-item">
                   <img src="/assets/casino.jpg" class="d-block w-100 c-image" alt="casino">
+                  <div class="carousel-caption d-md-block top-0">
+                    <h1 class="mt-5">9 Bets Online Casinos: Top Casino Sites 2023</h1>
+                    <div class="p-5">
+                        <a href="index.html" class="p-2 c-btn">Show More</a>
+                    </div>
+                  </div>
                 </div>
                 <div class="carousel-item c-item">
                   <img src="/assets/casino.jpg" class="d-block w-100 c-image" alt="casino">
+                  <div class="carousel-caption d-md-block top-0">
+                    <h1 class="mt-5">9 Bets Online Casinos: Top Casino Sites 2023</h1>
+                    <div class="p-5">
+                        <a href="index.html" class="p-2 c-btn">Show More</a>
+                    </div>
+                  </div>
                 </div>
                 <div class="carousel-item c-item">
                     <img src="/assets/casino.jpg" class="d-block w-100 c-image" alt="casino">
+                    <div class="carousel-caption d-md-block top-0">
+                        <h1 class="mt-5">9 Bets Online Casinos: Top Casino Sites 2023</h1>
+                        <div class="p-5">
+                            <a href="index.html" class="p-2 c-btn">Show More</a>
+                        </div>
+                      </div>
                   </div>
               </div>
               
@@ -227,6 +263,7 @@
       </section>
     
     <script type="module" defer src="/js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
