@@ -1,61 +1,67 @@
 @import "./color";
 
-.author-box{
-    opacity: 75%;
-    border-radius: 5px;
+.author-box {
+  opacity: 75%;
+  border-radius: 5px;
 }
 
-.h-item{
-    max-width: 100%;
-    
+.h-item {
+  max-width: 100%;
 }
 
-.h-image{
-    height: 100%;
+.h-image {
+  height: 100%;
 }
 
 .italic {
-    font-style: italic;
+  font-style: italic;
 }
 
-.icon-item{
-    height: 100px;
-    width: 100px;
-    margin-left: 10px;
+.icon-item {
+  height: 100px;
+  width: 100px;
+  margin-left: 10px;
 }
 
-.icon-image{
-    height: 100%;
-    width: 100%;
+.icon-image {
+  height: 100%;
+  width: 100%;
 }
 
-.siteBtn{
+.siteBtn {
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: $primary;
+  border-radius: 3px;
+}
+
+.siteBtn:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #7285a5;
+  border-radius: 3px;
+}
+
+.s-companies {
+  background-color: #cbd3e1;
+}
+
+.bc-item {
+  height: 250px;
+}
+
+.bc-image {
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 767.98px) {
+  .icon-item {
+    margin-left: 5px;
+  }
+
+  .siteBtn {
     margin-right: 10px;
-    text-decoration: none;
-    color: white;
-    background-color: $primary;
-    border-radius: 3px;
-
+  }
 }
-
-.siteBtn:hover{
-    text-decoration: none;
-    color: white;
-    background-color: #7285A5;
-    border-radius: 3px;
-
-}
-
-.s-companies{
-    background-color: #cbd3e1;
-}
-
-.bc-item{
-    height: 250px;
-}
-
-.bc-image{
-    height: 100%;
-    object-fit: cover;
-}
-
