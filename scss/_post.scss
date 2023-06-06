@@ -7,6 +7,7 @@
 
 .h-item {
   max-width: 100%;
+
 }
 
 .h-image {
@@ -101,4 +102,19 @@
   .siteBtn {
     margin-right: 10px;
   }
+
+  h5{
+    font-size: 2em;
+  }
+
+  .icon-item {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .icon-image {
+    height: 100%;
+    width: 100%;
+  }
 }
+
