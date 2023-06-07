@@ -1,0 +1,7 @@
+import "./home/trucante.js"
+import "./home/categories.js"
+import "./about/validation.js"
+import "./about/display.js"
+import "./home/mail.js"
+import "./home/copy.js"
+import "./home/modal.js"

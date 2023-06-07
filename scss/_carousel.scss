@@ -1,0 +1,39 @@
+@import "./color";
+
+.c-item {
+    height: 400px;
+
+}
+
+.c-image{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+
+.c-button{
+    color: $primary;
+}
+
+.c-btn{
+    text-decoration: none;
+    color: white;
+    background-color: $primary;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+.c-btn:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #7285A5;
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+@media (max-width: 767.98px) { 
+    .c-item {
+        height: 300px;
+    }
+
+}
