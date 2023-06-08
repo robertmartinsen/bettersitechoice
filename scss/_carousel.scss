@@ -1,7 +1,7 @@
 @import "./color";
 
 .c-item {
-    height: 400px;
+    height: 600px;
 
 }
 
@@ -35,5 +35,10 @@
     .c-item {
         height: 300px;
     }
+
+    .c-t {
+        margin-top: 0; /* Remove margin-top */
+    }
+
 
 }
