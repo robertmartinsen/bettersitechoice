@@ -1,7 +1,7 @@
 @import "./color";
 
 .c-item {
-    height: 600px;
+    height: 400px;
 
 }
 
@@ -11,8 +11,13 @@
     filter: brightness(0.5);
 }
 
+.c-t{
+    margin-top: 50px;
+}
+
 .c-button{
     color: $primary;
+    margin-top: 50px;
 }
 
 .c-btn{
@@ -38,7 +43,12 @@
 
     .c-t {
         margin-top: 0; /* Remove margin-top */
+        font-size: 26px;
     }
 
+    .c-button{
+        color: $primary;
+        margin-top: 15px;
+    }
 
 }
