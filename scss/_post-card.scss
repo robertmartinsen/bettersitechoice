@@ -13,14 +13,15 @@
 
 .show-morebtn{
     text-decoration: none;
-    color: black;
-    border: 1.5px solid black;
+    color: white;
+    border: 0.5px solid black;
     border-radius: 5px;
     transition-duration: 0.2s;
+    background-color: $primary;
 }
 
 .show-morebtn:hover {
-    background-color: $primary;
+    background-color: $secondary;
     color: white;
 }
 
