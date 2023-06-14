@@ -1,9 +1,10 @@
 function setCookie(cName, cValue, expDays) {
     let date = new Date();
-    date.setTime(date.getTime() + (expDays * 24 * 60 * 60 * 1000));
+    date.setTime(date.getTime() + expDays * 24 * 60 * 60 * 1000);
     const expires = "expires=" + date.toUTCString();
-    document.cookie = cName + "=" + cValue + "; " + expires + "; path=/, path=/html/articles/casinos/top-crypto-casinos-2023, path=/html/about, path=/html/articles/category-casino, path=/html/articles/category-shopping, path=/html/articles/category-finance, path=/html/articles/category-electronics,";
-}
+    document.cookie = cName + "=" + cValue + "; " + expires + "; path=/";
+  }
+  
 
 
 function getCookie(cName) {
