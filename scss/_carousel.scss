@@ -1,5 +1,11 @@
 @import "./color";
 
+.c-box{
+    height: 350px;
+    filter: brightness(0.9);
+    background-image: linear-gradient(to top right, $secondary, $primary);
+}
+
 .c-item {
     height: 350px;
 
