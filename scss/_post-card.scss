@@ -13,6 +13,7 @@
 
 .show-morebtn{
     text-decoration: none;
+    font-size: 1rem;
     color: white;
     border: 0.5px solid black;
     border-radius: 5px;
@@ -26,6 +27,7 @@
 }
 
 .truncate-paragraph {
+    font-size: 0.9rem;
     overflow: hidden;
     text-overflow: ellipsis;
     color: black;
@@ -35,9 +37,27 @@
     -webkit-box-orient: vertical;
   }
 
+  .post-card_title-box {
+    margin-bottom: 10px; /* Adjust the margin as needed */
+    height: 100px;
+}
+
+.truncate-paragraph-box {
+    margin-top: 10px; /* Pushes the paragraph to the bottom of its container */
+}
 
 .updated{
     opacity: 75%;
+    font-size: 0.75rem;
+}
+
+.s-image-item{
+    height: 500px;
+}
+.s-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 
@@ -52,4 +72,34 @@
         object-fit: cover;
     }
 
+
+    .post-card_title-box {
+        margin-bottom: 0px; /* Adjust the margin as needed */
+        height: 0;
+    }
+
+    .truncate-paragraph-box {
+        margin-top: 100px; /* Pushes the paragraph to the bottom of its container */
+    }
+
+    .s-image-item{
+        height: 300px;
+    }
+    .s-image {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 767.98px) { 
+    .post-card_title-box {
+        margin-bottom: 10px; /* Adjust the margin as needed */
+        height: 100px;
+    }
+    
+    .truncate-paragraph-box {
+        margin-top: 25px; /* Pushes the paragraph to the bottom of its container */
+    }
 }
