@@ -39,7 +39,7 @@
 
   .post-card_title-box {
     margin-bottom: 10px; /* Adjust the margin as needed */
-    height: 100px;
+    height: 50px;
 }
 
 .truncate-paragraph-box {
@@ -79,7 +79,7 @@
     }
 
     .truncate-paragraph-box {
-        margin-top: 100px; /* Pushes the paragraph to the bottom of its container */
+        margin-top: 80px; /* Pushes the paragraph to the bottom of its container */
     }
 
     .s-image-item{
@@ -93,10 +93,10 @@
 
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 767.98px) { 
+@media only screen and (max-width: 1400px) and (min-width: 767.98px) { 
     .post-card_title-box {
         margin-bottom: 10px; /* Adjust the margin as needed */
-        height: 100px;
+        height: 50px;
     }
     
     .truncate-paragraph-box {
