@@ -26,6 +26,7 @@ Develop a modern front-end website for a friend. he wants to publish articles an
 - Browse and view articles
 - Articles carousel
 - Copy and paste link to each article
+- Cookies
 
 ### Project Setup
 
